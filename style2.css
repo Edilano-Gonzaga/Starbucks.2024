@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, #D4E9E2, #0A4935);
+    
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.conteudo {
+  color: white;
+  margin: 5px 0 5px 5px;
+  font-size: 18px;
+}
+
+span {
+    color:#b8e9d7;
+    font-size: 1.5em;
+    font-weight: 500;
+    
+}
+
+p {
+  margin: 5px 5px 5px 0px;
+  text-align: justify;
+  
+}
+
+p a:hover{
+    color: #1c5540;
+    text-decoration: underline;
+}
+
+.gracom, img {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+footer{
+  text-align: center;
+  color: #0A4935;
+  padding: 5px;
+  margin-left: 50px;
+  font-size: 0.9em;
+
+}
+
+footer p {
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+footer a {
+    color: #0A4935;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #1c5540;
+    text-decoration: underline;
+}
